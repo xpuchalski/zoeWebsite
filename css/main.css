@@ -1,0 +1,183 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 2vh;
+    font-size: 2vh !important;
+    background-color: salmon;
+    color: azure;
+    font-size: 2vh;
+}
+font-face{
+    font-family: 'architects-daughter';
+    src: url('/resources/Architects_Daughter/ArchitectsDaughter-Regular.ttf');
+}
+
+*{
+    font-family: 'architects-daughter';
+    src: url('/resources/Architects_Daughter/ArchitectsDaughter-Regular.ttf');
+}
+
+.card {
+    opacity: 0.6;
+    width: 45vh !important;
+    height: 30vh !important;
+    background-size: cover;
+    overflow: hidden !important;
+    margin: 2vh;
+    color:azure;
+    text-align: center;
+    font-size: 7vh;
+    font-weight: bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    padding:9vh 2vh;
+    display: block;
+    position:relative;
+
+}
+
+.card:hover{
+    opacity: 0.9;
+}
+
+a{
+    text-decoration: none;
+    color: azure;
+}
+
+a:hover{
+    color: darkslateblue;
+    z-index: -10;
+}
+
+link [type="image/x-icon"] {
+    border-radius: 2vh;
+}
+
+hr {
+    font-size: 3vh;
+    color: azure;
+    font-weight: bold;
+}
+
+.navbar {
+    height: 12vh;
+    background-color: #242F3B;
+    margin: 0;
+    padding: 0 4vh 0;
+}
+
+.nav-link{
+    font-size: 3vh;
+}
+.nav-link :hover{
+    color: azure;
+}
+
+.navbar-nav > li{
+    margin: 0 1vh;
+}
+.navbar-brand > img{
+    width: 7vh;
+    height: 7vh;
+    border-radius: 1vh;
+}
+
+.nav-item {
+    padding: 0 2vh 0;
+}
+
+.active{
+    background-color: darkslateblue;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 1vh;
+}
+
+.sidenav {
+    height: 100%; 
+    width: 20vh; 
+    position: fixed; 
+    z-index: 1; 
+    background-color: #212529; 
+    overflow-x: hidden; 
+    padding-top: 12vh;
+    left: 0;
+}
+
+.sidenav a {
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 3vh;
+    color: #9B9D9E;
+    display: block;
+    padding: 0 2vh;
+}
+
+@media screen and (max-height: 64vh) {
+    .sidenav {padding-top: 2vh;}
+    .sidenav a {font-size: 3vh;}
+}
+
+#homeGallery{
+    background-color: #242F3B;
+    margin: 15vh 10vh 55vh;
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+    display: block;
+    border-radius: 5vh;
+}
+
+#homeGallery > div > img{
+    margin: 2vh;
+    opacity: 0.5;
+    max-width: 55vh;
+    max-height: 72vh;
+    position: relative;
+}
+
+#homeGallery > div > img:hover{
+    border-radius: 2.5vh;
+    max-width: 72vh;
+    opacity: 1;
+    max-height: 90vh;
+}
+
+#galleryContainer{
+    margin: 12vh auto 0;
+    padding-left: 15vh;
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+    display: block;
+    width: 100% !important;
+}
+
+#galleryContainer > div > img{
+    margin: 2vh;
+    opacity: 0.5;
+    max-width: 44vh;
+    max-height: 57vh;
+    position: relative;
+}
+
+#galleryContainer > div > img:hover{
+    border-radius: 2vh;
+    max-width: 48vh;
+    max-height: 60vh;
+    opacity: 1;
+}
+
+.pfp{
+    border-radius: 25vh;
+    width: 50vh;
+    height: 50vh;
+    object-fit: cover;
+    object-position: 50% 17%;
+    display: inline-block;
+    position: absolute;
+}
